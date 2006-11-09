@@ -1,0 +1,25 @@
+
+
+   #Geometry
+   #
+   # Note : there're 2 records that one can use for det.simulation :
+   #        cmsSimIdealGeometryXML.cfi and cmsIdealGeometryXML.cfi ;
+   #        the difference between them is that the later contains
+   #        some extra info useful at the reco stage but disregarded
+   #        at the det.simulation stage ;
+   #
+   # include "Geometry/CMSCommonData/data/cmsSimIdealGeometryXML.cfi"
+   #
+   include "Geometry/CMSCommonData/data/cmsIdealGeometryXML.cfi"
+   es_module = TrackerGeometricDetESModule {}
+   
+   # Magnetic Field
+   #
+   include "MagneticField/Engine/data/volumeBasedMagneticField.cfi"
+
+   # Geant4-based CMS Detector simulation (OscarProducer)
+   # - returns label "g4SimHits"
+   #
+   include "SimG4Core/Application/data/g4SimHits.cfi"
+   
+   
