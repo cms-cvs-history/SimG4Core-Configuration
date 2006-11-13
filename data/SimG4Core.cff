@@ -11,7 +11,7 @@
    # include "Geometry/CMSCommonData/data/cmsSimIdealGeometryXML.cfi"
    #
    include "Geometry/CMSCommonData/data/cmsIdealGeometryXML.cfi"
-   es_module = TrackerGeometricDetESModule {}
+   include "Geometry/TrackerNumberingBuilder/data/trackerNumberingGeometry.cfi"
    
    # Magnetic Field
    #
