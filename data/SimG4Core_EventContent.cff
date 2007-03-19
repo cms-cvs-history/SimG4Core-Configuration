@@ -2,9 +2,8 @@
 block SimG4CoreFEVT = {
   untracked vstring outputCommands = {
 	"keep *_g4SimHits_*_*",
-	"keep edmHepMCProduct_source_*_*",
-        "keep *_genParticleCandidates_*_*",
-	"keep *_trackingtruth_*_*"
+	"keep edmHepMCProduct_VtxSmeared_*_*",
+        "keep *_genParticleCandidates_*_*"
   }		
 }	
 
@@ -14,8 +13,7 @@ block SimG4CoreRECO = {
 	"keep edmHepMCProduct_source_*_*",
         "keep *_genParticleCandidates_*_*",
 	"keep SimTracks_g4SimHits_*_*",
-	"keep SimVertexs_g4SimHits_*_*",
-	"keep *_trackingtruth_*_*"
+	"keep SimVertexs_g4SimHits_*_*"
   }		
 }	
 
