@@ -22,10 +22,6 @@ block SimG4CoreRECO = {
 #AOD content
 block SimG4CoreAOD = {
   untracked vstring outputCommands = {
-<<<<<<< SimG4Core_EventContent.cff
      "keep *_genParticleCandidates_*_*"
-=======
-    "keep *_genParticleCandidates_*_*"
->>>>>>> 1.8
   }		
 }	
