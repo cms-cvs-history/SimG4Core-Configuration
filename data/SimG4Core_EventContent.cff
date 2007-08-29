@@ -22,6 +22,7 @@ block SimG4CoreRECO = {
 #AOD content
 block SimG4CoreAOD = {
   untracked vstring outputCommands = {
-     "keep *_genParticleCandidates_*_*"
+    "keep edmGenInfoProduct_source_*_*",
+    "keep *_genParticleCandidates_*_*"
   }		
 }	
