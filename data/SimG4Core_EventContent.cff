@@ -4,7 +4,9 @@ block SimG4CoreFEVT = {
     "keep *_g4SimHits_*_*",
     "keep edmHepMCProduct_source_*_*",
     "keep edmGenInfoProduct_source_*_*",
-    "keep *_genParticleCandidates_*_*"
+    "keep *_genParticleCandidates_*_*",
+    "keep *_genEventWeight_*_*",
+    "keep *_genEventScale_*_*"
   }		
 }	
 
@@ -12,6 +14,8 @@ block SimG4CoreFEVT = {
 block SimG4CoreRECO = {
   untracked vstring outputCommands = {
     "keep *_genParticleCandidates_*_*",
+    "keep *_genEventWeight_*_*",
+    "keep *_genEventScale_*_*",
     "keep edmHepMCProduct_source_*_*",
     "keep edmGenInfoProduct_source_*_*",
     "keep SimTracks_g4SimHits_*_*",
@@ -23,6 +27,8 @@ block SimG4CoreRECO = {
 block SimG4CoreAOD = {
   untracked vstring outputCommands = {
     "keep edmGenInfoProduct_source_*_*",
-    "keep *_genParticleCandidates_*_*"
+    "keep *_genParticleCandidates_*_*",
+    "keep *_genEventWeight_*_*",
+    "keep *_genEventScale_*_*"
   }		
 }	
