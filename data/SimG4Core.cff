@@ -1,9 +1,0 @@
-
-   # Geometry and Magnetic field must be initialized separately
-
-   # Geant4-based CMS Detector simulation (OscarProducer)
-   # - returns label "g4SimHits"
-   #
-   include "SimG4Core/Application/data/g4SimHits.cfi"
-   
-   
