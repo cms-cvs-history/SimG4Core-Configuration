@@ -1,5 +1,5 @@
-#Full Event content 
-block SimG4CoreFEVT = {
+#RAW content 
+block SimG4CoreRAW = {
   untracked vstring outputCommands = {
     "keep *_g4SimHits_*_*",
     "keep edmHepMCProduct_source_*_*"
@@ -10,18 +10,15 @@ block SimG4CoreFEVT = {
 #RECO content
 block SimG4CoreRECO = {
   untracked vstring outputCommands = {
-
     "keep edmHepMCProduct_source_*_*",
     "keep SimTracks_g4SimHits_*_*",
     "keep SimVertexs_g4SimHits_*_*"
-
   }		
 }	
 
 #AOD content
 block SimG4CoreAOD = {
   untracked vstring outputCommands = {
-
   }		
 }	
 
